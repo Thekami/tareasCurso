@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body onload="loadDOM()">
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="6">
+					<input type="text" id="display" readonly>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="button" value="7" onclick="concat(this)"></td>
+				<td><input type="button" value="8" onclick="concat(this)"></td>
+				<td><input type="button" value="9" onclick="concat(this)"></td>
+				<td><input type="button" value="*" onclick="Operador(this)"></td>
+				<td><input type="button" value="MS" onclick="MemorySave()"></td>
+				<td><input type="button" value="MR" onclick="MemoryRead()"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="concat(this)"></td>
+				<td><input type="button" value="5" onclick="concat(this)"></td>
+				<td><input type="button" value="6" onclick="concat(this)"></td>
+				<td><input type="button" value="/" onclick="Operador(this)"></td>
+				<td><input type="button" value="M+" onclick="MemoryPlus()"></td>
+				<td><input type="button" value="C" onclick="ClaearAll()"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="concat(this)"></td>
+				<td><input type="button" value="2" onclick="concat(this)"></td>
+				<td><input type="button" value="3" onclick="concat(this)"></td>
+				<td><input type="button" value="+" onclick="Operador(this)"></td>
+				<td><input type="button" value="MC" onclick="MemoryClear()"></td>
+				<td><input type="button" value="CE" onclick="Clear()"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="0" onclick="concat(this)"></td>
+				<td><input type="button" value="." onclick="Dot()"></td>
+				<td><input type="button" value="+/-" onclick="Negative()"></td>
+				<td><input type="button" value="-" onclick="Operador(this)"></td>
+				<td colspan="2"><input type="button" id="btn_igual" value="=" onclick="calcular()"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script src="js/main.js"></script>
+	
+</body>
+</html>

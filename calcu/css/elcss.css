@@ -1,0 +1,17 @@
+[type="button"]{
+	width: 35px;
+	font-weight: bold;
+	text-align:center;
+}
+
+[type="text"]{
+	font-size: 30px;
+	width:250px;
+	text-align:right;
+	background-color:darkgrey;
+	font-weight:bold;	
+}
+
+.igual{
+	width:45px;
+}

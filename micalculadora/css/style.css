@@ -1,0 +1,10 @@
+[type=button]{
+	width: 100%;
+	text-align: center;
+}
+
+#display{
+	width: 99%;
+	margin: 0;
+	padding: 0;
+}
