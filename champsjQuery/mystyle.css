@@ -1,0 +1,211 @@
+
+
+			@font-face {
+			  font-family: 'lol';
+			  src: url(fonts/beaufortforlol-bold.otf);
+			}
+
+			h3{
+			    width: 99.9%;
+				border: 1px solid white;
+				background-color: white;
+				height: 25px;
+				padding-top: 0px;
+				margin-bottom: 10px;
+				text-align: center;
+				color: rgb(234, 161, 20);
+				position: fixed;
+				bottom: 0;
+				
+			}
+
+
+			.ul {
+			    list-style-type: none;
+			    padding: 0;
+			    overflow: hidden;
+			}
+
+			.li {
+			   /* display: inline-block;
+			    background: rgb(215, 153, 34) url("img/lol-textures.jpg") no-repeat scroll 50% -846px;
+				border-color: rgb(246, 198, 83) rgb(189, 106, 35) rgb(182, 99, 31) rgb(232, 171, 74);
+				color: rgb(34, 34, 34);
+				margin: 1px;*/
+				display: inline-block;
+				color: black;
+				border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+				/*background: #d79922 url("img/lol-textures.jpg") no-repeat 50% -846px;*/
+				margin: 1px;
+				border-style: solid;
+				border-width: 3px;
+				font-family: lol;
+				margin: 10px 5px 30px auto;
+				background: radial-gradient(circle, #d79922, #d79922,#d79922);
+			}
+
+			li:hover{
+				background: radial-gradient(circle, #e5b558, #e5b558,#e5b558);
+				border-color: #f9d683 #da8339 #db7b2d #eec077;
+			}
+
+			li a {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			}
+
+			.li_logo{
+				float: right;
+				list-style: none;
+			}
+
+
+			body{
+				/*background-color: #c3c3c3;*/
+				background-color: black;
+				margin: 0;
+			}
+
+			.champ-icon{
+				display: inline-block;
+				width: 120px;
+				height: 170px;
+				margin-right: 6%;
+				border: 1px solid white; 
+				padding: 1%;
+				margin-bottom: 15px;
+			}
+
+			.main-content{
+				
+				/*width: 75%;
+				margin-left: 100px;
+				margin-right: 100px;
+			    border: solid;
+				-webkit-border-image: url(img/border.png) 60 round;
+				-o-border-image: url(img/border.png) 60 round;
+				border-image: url(img/border.png) 60;
+				border-image-repeat: stretch;
+				border-width: 60px;
+				margin-top: 100px;
+				margin-bottom: 50px;*/
+				width: 75%;
+				margin-left: 100px;
+				margin-right: 100px;
+				border: solid;
+				-webkit-border-image: url(img/border.png) 60 round;
+				-o-border-image: url(img/border.png) 60 round;
+				border-image: url(img/border.png) 60;
+				border-image-repeat: stretch;
+				border-width: 60px;
+				margin-top: 100px;
+				margin-bottom: 50px;
+				/*background-color: gray;
+				padding-left: 20px;
+				padding-top: 20px;*/
+			}
+
+			.div_container{
+				margin: -26px -33px -35px -35px;
+				background-color: gray;
+				padding-left: 20px;
+				padding-top: 20px;
+				border-radius: 19px;
+				padding-bottom: 10px;
+			}
+
+			.imgs{
+				width: 120px;
+				height: 120px;
+			}
+
+			.flex-content{
+				width: 29%;
+				height: 710px;
+				border: solid 5px #cbcbcb;
+				padding: 1%;
+				margin-top: 40px;
+				display: inline-block;
+				background-color: #e5e5e5;
+			}
+
+			.tiny-img{
+				width: 30%;
+				margin: 1%;
+			}
+
+			.main-img{
+				width: 96%;
+				margin: 1%;
+				max-height: 520px;
+			}
+
+			.descipcion{
+				border: solid 5px #666;
+				display: inline-block;
+				width: 62%;
+				margin-top: 40px;
+				margin-left: 1%;
+				margin-right: 1%;
+				height: 710px;
+				background-color: #b2b2b2;
+				padding: 1%;
+				float: right;
+				border-width: 5px 0px 0px 0px;
+			    border-bottom: solid white;
+			    border-left: solid #cbcbcb;
+			    border-right: solid #cbcbcb;
+
+			}
+
+			.champ-name{
+				text-transform: uppercase;
+				font-family: lol;
+			}
+			.champ-alias{
+				text-transform: capitalize;
+			}
+			.champ-algn{
+				text-transform: capitalize;
+				font-style: italic;
+			}
+			.champ-description:first-letter{
+				font-size: 300%;
+				font-family: lol;
+			}
+
+			.mid-header{
+				float: left;
+				right: 1%;
+				position: fixed;
+				top: 0;
+			}
+
+			nav{
+				position: fixed;
+				top: 0;
+			}
+
+
+			.com-non{
+				border-radius: 10px;
+				border: 1px solid;
+				padding-left: 10px;
+				margin-right: 25px;
+				/*width: 700px;*/
+				background-color: black;
+				color: white;
+			}
+
+			.com-par{
+				border-radius: 10px;
+				border: 1px solid;
+				padding-left: 10px;
+				margin-right: 25px;
+				/*width: 700px;*/
+				background-color: white;
+				color: black;
+			}
