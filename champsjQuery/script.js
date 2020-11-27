@@ -9,6 +9,12 @@ var idSetInterval = 0
 
 $(document).on('click', '.champ-icon', function(){
 
+	// id = id.split('_')[1]
+
+	// $('.contenedores').attr('hidden', true)
+	// $('#'+id).attr('hidden', false)
+
+
 	var id = $(this).attr('id')
 
 	if(id != parpadeando){
